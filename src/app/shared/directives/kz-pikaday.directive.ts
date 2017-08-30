@@ -71,7 +71,7 @@ export class KzPikadayDirective implements AfterViewInit,
         months        : [
           'Janeiro', 'Fevereiro', 'Março', 'Abril', 
           'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 
-          'Outubro','Novembro','Dezembro'
+          'Outubro', 'Novembro', 'Dezembro'
         ],
         weekdays      : [
           'Domingo', 'Segunda-feira', 'Terça-feira', 

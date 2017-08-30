@@ -58,7 +58,7 @@ export class KzPaginacaoComponent implements OnInit {
 				(this.pagina - this.qtdAdjacentes);
 		let fimAdjacente = (this.pagina + this.qtdAdjacentes >= this.qtdPaginas) ? 
 				this.qtdPaginas : (this.pagina + this.qtdAdjacentes);
-		for (let i=iniAdjacente; i<=fimAdjacente; i++) {
+		for (let i = iniAdjacente; i <= fimAdjacente; i++) {
 			this.paginas.push(i);
 		}
 	}

@@ -87,7 +87,7 @@ export class KzMaskDirective implements ControlValueAccessor {
     
     valor = '';
     for (let i = 0; i < this.kzMask.length; i++) {
-      if (isNaN(parseInt(this.kzMask.charAt(i)))) {
+      if (isNaN(parseInt(this.kzMask.charAt(i), 10))) {
         valor += this.kzMask.charAt(i);
       } else {
         valor += valorMask[valorMaskPos++];
